@@ -1,0 +1,77 @@
+    h1 {
+      text-shadow: 2px 2px 2px orangered;
+      color: white;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    h2 {
+      text-shadow: 2px 2px 2px blue;
+      color: black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h3 {
+      color: black;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    h4 {
+      color: grey;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .titulo{
+      color: white;
+      font-size: x-large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background: rgb(240, 180, 41); 
+    }
+    .subtitulo{
+      text-shadow: rgb(128, 128, 128);
+      padding: 15px 35px;
+      color: blue;
+      font-size: large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background: rgb(244, 121, 32);      
+    }
+    .cuerpo{
+      padding: 25px 0px 0px 0px;
+      color: rgb(51, 51, 51);
+      font-size: large;
+      font-style: normal;
+      font-family: 'Courier New', Courier, monospace;      
+    }
+    .pie{      
+      color: black;
+      font-size: small;
+      font-style: oblique;
+      font-family: 'Times New Roman', Times, serif;
+      background: rgb(0, 88, 131);
+    }
+    .buscar{
+      display: flex;
+      align-items: flex-end;      
+    }
+    .box{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: rgb(0, 88, 131);
+      font-size: large;
+      padding: 5px 35px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      transform: translate(-50%, -50%);
+    }
+    input.src{
+      padding: 0px 0px;
+      background: #fff url("search-icon1.png") no-repeat -10px center ;
+      transition: all .5s;
+    }
+    input.src:hover{
+      background:rgb(51, 51, 51);
+      box-shadow: rgb(0, 0, 5);
+    }
+    .border{
+      border: rgb(240, 180, 41) 8px groove;
+      background: rgb(179, 179 , 179);
+    }
+

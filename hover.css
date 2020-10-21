@@ -1,0 +1,17 @@
+    button{
+      background: rgb(179, 179, 179);
+      color: green;
+      font-size: x-large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      bottom: auto;
+    }
+    button:hover{
+      background: rgb(128, 128, 128);
+      color: rgb(0, 38, 255);
+      font-size: x-large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      bottom: auto;      
+    }
+    button:active{
+      background: rgb(51, 51, 51);
+    }
